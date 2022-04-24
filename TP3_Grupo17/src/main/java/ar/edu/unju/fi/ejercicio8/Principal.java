@@ -69,7 +69,7 @@ public class Principal {
 						for (int j = 0; j < listaAlumnos.get(i).getNota().length; j++) {
 							System.out.println("Ingrese Nueva Nota: "+(j+1)+" ");
 							nuevaNota[j]=scan.nextDouble();
-						}
+						} 
 						listaAlumnos.get(i).setNota(nuevaNota);
 					}
 				}
