@@ -3,7 +3,7 @@ package ar.edu.unju.fi.ejercicio8;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import fi.unju.edu.ar.ejercicio3.Alumno;
+import ar.edu.unju.fi.ejercicio3.Alumno;
 
 public class Principal {
 
