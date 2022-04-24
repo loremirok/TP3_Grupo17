@@ -81,6 +81,14 @@ public class Alumno {
 		}
 		return notaMax;
 	}
+	public String mostrarNotas() {
+		String notas = "";
+		for (int i = 0; i < this.nota.length; i++) {
+			notas += "Nota "+(i+1)+": "+this.nota[i]+" ";
+		}
+		
+		return notas;
+	}
 	
 	
 }
